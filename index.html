@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="buttonn">
+        <button id="button1">Close</button>
+    </div>
+
+    <div id="container">
+        <div id="box">
+
+                <div id="user-inp">
+                    <label for="firstName"><h2>Name</h2></label>
+                    <input id="firstName" type="text" placeholder="Enter channel name">
+
+                    <label for="channeLink"><h2>Link URL</h2></label>
+                    <input id="channeLink" type="text" placeholder="Enter Channel Link URL">
+
+                    <label for="imageUrl"><h2>Image URL</h2></label>
+                    <input id="imageUrl" type="text" placeholder="Enter Image URL">
+
+                    <label for="channelStatus"><h2>Status</h2></label>
+                    <select id="status" name="status">
+                        <option value="ACTIVE">Active</option>
+                        <option value="ON A BREAK">On a break</option>
+                        <option value="DEAD CHANNEL">Dead Channel</option>
+                    </select>
+
+                    <label for="channelDesc"><h2>Description</h2></label>
+                    <input id="channelDesc" type="text" placeholder="Enter channel description">
+
+                    <div id="sub-button">
+                    <button id="submitButton">Submit</button>
+                    </div>  
+                </div>
+
+        </div>
+    </div>
+    
+    <br>
+
+    <div id="container2">
+
+    <!-- <div id="content">
+            <img src=${item.imageUrl}>
+            <h3>${item.firstName}</h3>
+            <a href=<h5>${item.channeLink}</h5></a>
+            <p>
+                 ${item.channelDesc}
+            </p>
+            <button id="remove" onclick='handleRemove(${item.id})'>remove</button>
+            <button id="edit" onclick='handleRemove(${item.id})'>remove</button>
+        </div> -->
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
